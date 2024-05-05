@@ -277,7 +277,7 @@ const ctx = canvas.getContext('2d');
     
     function playSound() 
     {
-        const sound = new Audio('Sound.mp3'); 
+        const sound = new Audio('./assets/Sound.mp3'); 
         sound.play();
     }
 
